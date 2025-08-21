@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ Cyber Annihilators BD }} - Phishing Link Checker</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #121212;
+            color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px #00000080;
+            text-align: center;
+            width: 90%;
+            max-width: 450px;
+        }
+        img {
+            width: 80px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-bottom: 30px;
+            color: #00ffff;
+        }
+        input {
+            padding: 12px;
+            width: 90%;
+            border-radius: 10px;
+            border: none;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            background: #00ffff;
+            color: #121212;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #00bbbb;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.imgur.com/6ptQ1Nz.png" alt="Team Logo" style="width:80px;">
+        <h2>{{ Cyber Annihilators BD }} - Phishing Link Checker</h2>
+        <form method="post">
+            <input type="text" name="url" placeholder="Enter URL here">
+            <br>
+            <button type="submit">Check Link</button>
+        </form>
+        <div class="result">{{ result }}</div>
+    </div>
+</body>
+</html>
